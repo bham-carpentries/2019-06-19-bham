@@ -321,12 +321,12 @@ please preview your site before committing, and make sure to run
               </li>
               {% comment %} Adjusting your PATH environment {% endcomment %}
               <li>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
+                Keep "Git from the command line and also from 3rd-party software" selected and click on "Next".
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
               </li>
               {% comment %} Choosing the SSH executable {% endcomment %}
-              <li>Click on "Next".</li>
+              <li>Click on "Next" twice to select the default SSH and HTTPS settings.</li>
               {% comment %} Configuring the line ending conversions {% endcomment %}
               <li>
                 Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
@@ -337,6 +337,8 @@ please preview your site before committing, and make sure to run
                   Select "Use Windows' default console window" and click on "Next".
                 </strong>
               </li>
+              {% comment %} Choosing the default extra options {% endcomment %}
+              <li>Click on "Next" to select the default "extra options".</li>
               {% comment %} Configuring experimental performance tweaks {% endcomment %}
               <li>Click on "Install".</li>
               {% comment %} Installing {% endcomment %}
